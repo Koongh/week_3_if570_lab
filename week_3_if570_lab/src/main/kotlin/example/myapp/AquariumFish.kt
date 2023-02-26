@@ -9,7 +9,7 @@ interface FishAction{
 }
 
 object GoldColor: FishColor{
-    override val color: String = "gold"
+    override val color = "gold"
 }
 
 class PrintingFishAction(val food: String): FishAction{
