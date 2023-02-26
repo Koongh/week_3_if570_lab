@@ -32,6 +32,21 @@ fun buildAquarium(){
     myTower.printSize()
 }
 
-fun main() {
-    buildAquarium()
+//fun main() {
+//    buildAquarium()
+//}
+
+//Comparing abstract classes and interface
+fun makeFish(){
+    val shark = Shark()
+    val pleco = Plecostomus()
+
+    println("Shark: ${shark.color}")
+    shark.eat()
+    println("Plecostomus: ${pleco.color}")
+    pleco.eat()
 }
+fun main(){
+    makeFish()
+}
+
